@@ -11,7 +11,7 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-//import com.nopcommerce.tri.Level_1_Register_Login_and_Screenshot;
+import com.nopcommerce.tri.Level_1_Register_Login_and_Screenshot;
 
 public class TestListener implements ITestListener {
 	
@@ -40,7 +40,7 @@ public class TestListener implements ITestListener {
 	public void onTestFailure(ITestResult result) {
 		Object testClass = result.getInstance();
 //		driver = ((Level_13_Register_Login_SCREENSHOT) testClass).getWebDriver();
-//		driver = ((Level_1_Register_Login_and_Screenshot) testClass).getWebDriver();
+		driver = ((Level_1_Register_Login_and_Screenshot) testClass).getWebDriver();
 				
 		TakesScreenshot scrShot =(TakesScreenshot) driver;
 		File SrcFile=scrShot.getScreenshotAs(OutputType.FILE);

@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="10.969">
+           time="9.739">
   <properties />
   
   
-            <testcase name="TC_01_Register" time="8.627" classname="com.nopcommerce.tri.Level_1_Register_Login_and_Screenshot" />
-                <testcase name="TC_02_Login" time="2.342" classname="com.nopcommerce.tri.Level_1_Register_Login_and_Screenshot" />
+            <testcase name="TC_02_Login" time="1.843" classname="com.nopcommerce.tri.Level_1_Register_Login_and_Screenshot" />
+                <testcase name="TC_01_Register" time="7.896" classname="com.nopcommerce.tri.Level_1_Register_Login_and_Screenshot" />
       
 </testsuite>
