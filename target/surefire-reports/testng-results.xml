@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[[INFO ] [2022-11-26 10:00:04,430] ---------- START delete file in folder ----------
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-11-26 10:00:04,430] ---------- END delete file in folder ----------
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-11-26 10:00:04,461] Pre-Condition - Open browser 'chrome' and navigate to 'https://demo.nopcommerce.com/'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-11-26 10:00:07,373] TC_01_Register: Click on register link from Home Page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-11-26 10:00:08,976] Click to Gender Male Radio
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-11-26 10:00:09,116] Enter First Name Textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-11-26 10:00:09,304] Enter Last Name Textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-11-26 10:00:09,515] Select Day from Dropdown
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-11-26 10:00:09,723] Select Month from Dropdown
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-11-26 10:00:09,911] Select Year from Dropdown
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-11-26 10:00:10,111] Enter Email Adress from Textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-11-26 10:00:10,285] Enter Company Name from Textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-11-26 10:00:10,448] Enter Password from Textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-11-26 10:00:10,639] Enter Confirm Password from Textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-11-26 10:00:10,795] Click To Register Button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-11-26 10:00:14,998] Verify the register is successfully
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-11-26 10:00:15,095]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-11-26 10:00:15,105] Click To Logout Button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-11-26 10:00:16,043] TC_02_Login: Click on Login link from Home Page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-11-26 10:00:17,015] Enter Email Address from Textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-11-26 10:00:17,229] Enter Password from Textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-11-26 10:00:17,426] Click To Login Button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-11-26 10:00:18,279] Verify the login is successfully
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-11-26 10:00:18,379]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-11-26 10:00:18,379] Post-Condition: Close browser
+<br>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-11-26T03:00:04Z" name="User NopCommerce" finished-at="2022-11-26T03:00:18Z" duration-ms="14125">
+    <groups>
+    </groups>
+    <test started-at="2022-11-26T03:00:04Z" name="Run on CHROME" finished-at="2022-11-26T03:00:18Z" duration-ms="14125">
+      <class name="com.nopcommerce.tri.Level_1_Register_Login_and_Screenshot">
+        <test-method is-config="true" signature="deleteAllFilesInReportNGScreenshot()[pri:0, instance:com.nopcommerce.tri.Level_1_Register_Login_and_Screenshot@4248e66b]" started-at="2022-11-26T03:00:04Z" name="deleteAllFilesInReportNGScreenshot" finished-at="2022-11-26T03:00:04Z" duration-ms="32" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-11-26 10:00:04,430] ---------- START delete file in folder ----------
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-11-26 10:00:04,430] ---------- END delete file in folder ----------
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteAllFilesInReportNGScreenshot -->
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.tri.Level_1_Register_Login_and_Screenshot@4248e66b]" started-at="2022-11-26T03:00:04Z" name="beforeClass" finished-at="2022-11-26T03:00:07Z" duration-ms="2864" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-11-26 10:00:04,461] Pre-Condition - Open browser 'chrome' and navigate to 'https://demo.nopcommerce.com/'
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="TC_01_Register()[pri:0, instance:com.nopcommerce.tri.Level_1_Register_Login_and_Screenshot@4248e66b]" started-at="2022-11-26T03:00:07Z" name="TC_01_Register" finished-at="2022-11-26T03:00:15Z" duration-ms="8627" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-11-26 10:00:07,373] TC_01_Register: Click on register link from Home Page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-11-26 10:00:08,976] Click to Gender Male Radio
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-11-26 10:00:09,116] Enter First Name Textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-11-26 10:00:09,304] Enter Last Name Textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-11-26 10:00:09,515] Select Day from Dropdown
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-11-26 10:00:09,723] Select Month from Dropdown
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-11-26 10:00:09,911] Select Year from Dropdown
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-11-26 10:00:10,111] Enter Email Adress from Textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-11-26 10:00:10,285] Enter Company Name from Textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-11-26 10:00:10,448] Enter Password from Textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-11-26 10:00:10,639] Enter Confirm Password from Textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-11-26 10:00:10,795] Click To Register Button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-11-26 10:00:14,998] Verify the register is successfully
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-11-26 10:00:15,095]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-11-26 10:00:15,105] Click To Logout Button
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_01_Register -->
+        <test-method signature="TC_02_Login()[pri:0, instance:com.nopcommerce.tri.Level_1_Register_Login_and_Screenshot@4248e66b]" started-at="2022-11-26T03:00:16Z" name="TC_02_Login" finished-at="2022-11-26T03:00:18Z" duration-ms="2342" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-11-26 10:00:16,043] TC_02_Login: Click on Login link from Home Page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-11-26 10:00:17,015] Enter Email Address from Textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-11-26 10:00:17,229] Enter Password from Textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-11-26 10:00:17,426] Click To Login Button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-11-26 10:00:18,279] Verify the login is successfully
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-11-26 10:00:18,379]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_02_Login -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.nopcommerce.tri.Level_1_Register_Login_and_Screenshot@4248e66b]" started-at="2022-11-26T03:00:18Z" name="afterClass" finished-at="2022-11-26T03:00:18Z" duration-ms="144" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-11-26 10:00:18,379] Post-Condition: Close browser
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.nopcommerce.tri.Level_1_Register_Login_and_Screenshot -->
+    </test> <!-- Run on CHROME -->
+  </suite> <!-- User NopCommerce -->
+</testng-results>
